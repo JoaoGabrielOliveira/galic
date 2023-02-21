@@ -1,4 +1,4 @@
-import Chip from '../chip';
+import Chip from 'components/chip';
 import './index.css';
 
 const Card = (props, {children }) => {

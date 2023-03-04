@@ -20,37 +20,47 @@
 }
 
 .card footer {
+    border-radius: 20px 20px 0 0;
     backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
-    justify-self: initial;
 }
 
 .card footer .footer-item {
-    justify-self: left;
+    justify-self: center;
+    margin: 0 2%;
+    width: 50%;
 }
 
-.card footer > * {
-    margin: 0 5%;
+.card footer .footer-item:first-child {
+    justify-self: center;
+    margin-right: 1%;
+    width: 10%;
 }
 
-button {
+.card footer .footer-item:last-child {
+    justify-self: right;
+    width:20%;
+}
+
+.card button {
     background: #edededbb;
     border: none;
     cursor: pointer;
-    font-size: 100%;
-    padding: 50%;
+    font-size: 60%;
+    padding: 30%;
 }
 
-button.has-icon {
+.card button.has-icon {
     border-radius: 100%;
 }
 
-time {
+.card time {
     background-color: white;
     border-radius: 1em;
     padding: 1% 30%;
     font-weight: 400;
+    width: 10%;
 }
 
 .title {

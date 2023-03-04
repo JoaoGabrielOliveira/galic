@@ -1,0 +1,42 @@
+nav {
+    display: grid;
+    grid-template-columns: var(--nav-grid-template-columns);
+    grid-template-rows: var(--nav-grid-template-rows);
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+nav > menu {
+    display: var(--menu-burger-display);
+}
+
+nav > menu li {
+    display: var(--menu-li-display);
+    text-align: center;
+    font-size: 90%;
+    font-weight: 300;
+    margin: 1%;
+}
+
+nav > menu li a {
+    text-decoration: none;
+}
+
+nav > menu li a:hover {
+    text-decoration: dashed;
+}
+
+.logoBrand {
+    text-align: center;
+    font-size: 150%;
+    user-select: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logoBrand:active {
+    filter: drop-shadow(0px 0px 5px red);
+}

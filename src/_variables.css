@@ -1,12 +1,26 @@
 :root {
     --title-size: 100%;
     --subtitle-size: 90%;
+
+    --menu-li-display: inline;
+
+    --nav-grid-template-columns: 25% 55% 30%;
+    --nav-grid-template-rows: 100%;
+
+    --menu-burger-display: block;
 }
 
 @media only screen and (max-width: 600px) {
     :root {
         --title-size: 80%;
         --subtitle-size: 70%;
+
+        --menu-li-display: block;
+
+        --nav-grid-template-columns: 100%;
+        --nav-grid-template-rows: 30% 30% 30%;
+
+        --menu-burger-display: list-item;
     }
 
 }

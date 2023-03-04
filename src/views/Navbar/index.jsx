@@ -15,13 +15,13 @@ export default class Navbar extends React.Component {
                 <li><a href="#">Plans</a></li>
             </menu>
 
-            <menu>
+            <menu className="profile">
                 <li>
-                    <button>S</button>
+                    <button><i className="fa fa-search"></i></button>
                 </li>
 
                 <li>
-                    <button>N</button>
+                    <button><i className="fa fa-bell"></i></button>
                 </li>
 
                 <li>
@@ -30,7 +30,7 @@ export default class Navbar extends React.Component {
 
                 <li>
                     <button>
-                        P
+                        <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png" alt="" />
                     </button>
                 </li>
             </menu>

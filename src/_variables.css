@@ -4,6 +4,7 @@
 
     --menu-li-display: inline;
 
+    --nav-height: 90px;
     --nav-grid-template-columns: 25% 55% 30%;
     --nav-grid-template-rows: 100%;
 
@@ -17,10 +18,11 @@
 
         --menu-li-display: block;
 
+        --nav-height: 300px;
         --nav-grid-template-columns: 100%;
         --nav-grid-template-rows: 30% 30% 30%;
 
-        --menu-burger-display: list-item;
+        --menu-burger-display: flex;
     }
 
 }

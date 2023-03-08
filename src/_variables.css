@@ -9,6 +9,7 @@
     --nav-grid-template-rows: 100%;
 
     --menu-burger-display: block;
+    --hero-header-width:30%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -23,6 +24,7 @@
         --nav-grid-template-rows: 30% 30% 30%;
 
         --menu-burger-display: flex;
+        --hero-header-width:100%;
     }
 
 }

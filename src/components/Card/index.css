@@ -62,20 +62,3 @@
     font-weight: 400;
     width: 10%;
 }
-
-.title {
-    font-size: var(--title-size);
-    font-weight: 400;
-    color: white;
-}
-
-.subtitle {
-    font-size: var(--subtitle-size);;
-    font-weight: 100;
-    color: white;
-}
-
-p {
-    margin: 0 0;
-    text-align: left;
-}

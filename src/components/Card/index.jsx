@@ -3,14 +3,14 @@ import './index.css';
 
 const Card = (props, {children }) => {
     let style = {
+        backgroundImage: `url(${props.background})`,
         width: props.width ?? '470px',
         height: props.height ?? '250px',
     }
+    console.log(style);
     return <div className="card" style={style}>
         <header>
-            <Chip>
-                {props.chipText}
-            </Chip>
+            {props.chipText ? <Chip> {props.chipText} </Chip> : ''}
         </header>
 
         <main>
@@ -24,12 +24,12 @@ const Card = (props, {children }) => {
             
 
             <div className="footer-item">
-                <p className="title">Spiderman - No way home</p>
-                <p className="subtitle">Dec 2021</p>
+                <p className="title">{props.title}</p>
+                <p className="subtitle">{props.subtitle}</p>
             </div>
 
             <div className="footer-item">
-                <time className=''>02:28:05</time>
+                <time>{props.time}</time>
             </div>
 
         </footer>
